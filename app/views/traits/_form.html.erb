@@ -25,7 +25,7 @@
   </div>
   <div class="field">
     <%= f.label :trait_type_id %><br>
-    <%= f.text_field :trait_type_id %>
+    <%= f.collection_select :trait_type_id, TraitType.all, :id, :name, :include_blank => true  %>
   </div>
   <div class="actions">
     <%= f.submit %>
