@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @trait.name %>
+</p>
+
+<p>
+  <strong>Display:</strong>
+  <%= @trait.display %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @trait.description %>
+</p>
+
+<p>
+  <strong>Trait type:</strong>
+  <%= @trait.trait_type %>
+</p>
+
+<%= link_to 'Edit', edit_trait_path(@trait) %> |
+<%= link_to 'Back', traits_path %>
