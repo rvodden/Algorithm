@@ -1,11 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  display: MyString
-  description: MyString
-
+  name: Action
+  display: A
+  description: Individuals focussed on what needs to be done rather than who does it or how it is done.
 two:
-  name: MyString
-  display: MyString
-  description: MyString
+  name: People
+  display: P
+  description: Individuals who are focussed on who does activities and how they feel, rather than how they are done or what they are doing.
+three:
+  name: Problem Solvers / Thinkers
+  display: T
+  description: Individuals who are focussed on how a task is completed rather than who does it or what tasks need completing.
